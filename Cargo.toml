@@ -1,5 +1,7 @@
 [package]
 name = "holochain-app-ws-tester"
+description = "Verify a holochain conductor is running and has a reachable app websocket at a given URL"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
