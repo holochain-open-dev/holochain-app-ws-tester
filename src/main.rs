@@ -23,7 +23,7 @@ async fn main() {
     println!("Successfully connected to app websocket at {}", args.app_ws);
 
     if let Some(app_id) = args.app_id {
-        let app_info = client.app_info(app_id.clone().into()).await
+        let app_info = client.app_info(app_id.clone()).await
             .expect(format!("Failed to call client.app_info for app_id '{}'", app_id.clone()).as_str());
     
         println!("Received AppInfo: {:?}", app_info);

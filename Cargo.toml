@@ -9,5 +9,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.4.6", features = ["derive"] }
-holochain_client = "=0.4.2"
+holochain_client = "=0.4.3"
 tokio = "1.32.0"
+serde = "=1.0.166"
