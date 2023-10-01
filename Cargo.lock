@@ -2045,7 +2045,7 @@ dependencies = [
 
 [[package]]
 name = "holochain-app-ws-tester"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap 4.4.6",
  "holochain_client",
