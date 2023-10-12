@@ -2,6 +2,12 @@
 
 Verify a holochain conductor is running and has a reachable app websocket at a given URL
 
+## Installation
+
+```
+cargo install holochain-app-ws-tester
+```
+
 ## Usage
 ```
 holochain-app-ws-tester [OPTIONS] <APP_WS>
